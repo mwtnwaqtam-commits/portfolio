@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohamed Khaled Abdelgawad — Data Science and Data Analysis portfolio." />
+  <title>Mohamed Khaled | Data Scientist & Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="animations.css" />
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <!-- Intro loader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-brand">MK<span>.</span></div>
+      <div class="loader-bar"><i></i></div>
+    </div>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">Mohamed Khaled<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#certifications">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow hero-anim" style="--i:0">DATA SCIENCE • DATA ANALYSIS • MACHINE LEARNING</p>
+        <h1 class="hero-anim" style="--i:1">Turning data into <span>meaningful impact.</span></h1>
+        <p class="typed-line hero-anim" style="--i:2"><span class="typed-prefix">&gt; </span><span id="typed">Data Analysis</span><span class="caret"></span></p>
+        <p class="hero-text hero-anim" style="--i:3">I’m Mohamed Khaled Abdelgawad, a Data Science and Data Analysis practitioner with hands-on experience in data cleaning, exploratory data analysis, web scraping, and machine learning. I focus on turning raw data into meaningful insights that support better decisions.</p>
+        <div class="hero-actions hero-anim" style="--i:4">
+          <a class="btn primary" href="#projects">Explore my work ↗</a>
+          <a class="btn secondary" href="cv.pdf" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> Download CV</a>
+        </div>
+        <div class="hero-stats hero-anim" style="--i:5">
+          <div><strong data-count="45593">45,593</strong><span>Records analyzed</span></div>
+          <div><strong data-count="99.2" data-decimals="1" data-suffix="%">99.2%</strong><span>Data cleanliness</span></div>
+          <div><strong data-count="1000" data-suffix="+">1,000+</strong><span>Books scraped</span></div>
+        </div>
+        <div class="quick-facts hero-anim" style="--i:6">
+          <span>📍 Cairo, Egypt</span>
+          <span>✉ mwtnwaqtam@gmail.com</span>
+        </div>
+      </div>
+      <div class="hero-visual hero-anim" style="--i:3">
+        <div class="portrait-container">
+          <div class="orbit orbit-1" aria-hidden="true"><i></i></div>
+          <div class="orbit orbit-2" aria-hidden="true"><i></i></div>
+          <img src="profile.jpg" alt="Mohamed Khaled" class="profile-img" />
+        </div>
+        <div class="badges-group">
+          <span class="floating-badge">▥ Data Analysis</span>
+          <span class="floating-badge">◈ Machine Learning</span>
+          <span class="floating-badge">◉ Web Scraping</span>
+        </div>
+      </div>
+    </section>
+
+    <a class="scroll-hint" href="#about" aria-label="Scroll to About section"><span></span></a>
+
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>Curious mind. Analytical thinking. Continuous growth.</h2>
+      </div>
+      <div class="about-grid">
+        <p>My background in Computer Science and Artificial Intelligence supports my focus on Data Science and Data Analysis, with a strong foundation in analytical thinking, problem-solving, and data-driven approaches.</p>
+        <p>Experienced in collecting, cleaning, analyzing, and visualizing real-world datasets to identify patterns and generate actionable insights. Skilled in Python, SQL, Power BI, and Machine Learning algorithms.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / TOOLKIT</p>
+          <h2>Skills I’m building every day.</h2>
+        </div>
+        <div class="skill-grid">
+          <article>
+            <h3>Programming Languages</h3>
+            <div class="tags"><span>Python</span><span>SQL</span><span>C++</span><span>JavaScript</span></div>
+          </article>
+          <article>
+            <h3>Data Analysis & Prep</h3>
+            <div class="tags"><span>Pandas</span><span>NumPy</span><span>EDA</span><span>Data Cleaning</span><span>Data Preparation</span><span>Statistics</span></div>
+          </article>
+          <article>
+            <h3>Visualization & BI</h3>
+            <div class="tags"><span>Power BI</span><span>DAX</span><span>Matplotlib</span><span>Microsoft Excel</span></div>
+          </article>
+          <article>
+            <h3>Web Scraping & ML</h3>
+            <div class="tags"><span>Requests</span><span>BeautifulSoup</span><span>Machine Learning</span><span>Neural Networks</span><span>Deep Learning</span></div>
+          </article>
+          <article>
+            <h3>Tools & Platforms</h3>
+            <div class="tags"><span>Jupyter Notebook</span><span>Git</span><span>GitHub</span><span>MySQL</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Projects that turn practice into progress.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-thumb"><img src="images/food-delivery.svg" alt="Food delivery analysis: delivery route and delivery time by traffic chart" loading="lazy" /></div>
+          <div class="project-number">01</div>
+          <p class="project-status">DATA ANALYSIS</p>
+          <h3>Food Delivery Data Analysis</h3>
+          <p>Processed and analyzed 45,593 records across 20 columns, achieving 99.2% data cleanliness. Engineered features for preparation time and geographic distances, reducing delivery delay metrics by 15%.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>EDA</span></div>
+          <div class="project-links">
+            <a class="btn secondary" href="https://github.com/mwtnwaqtam-commits/food-delivery-analysis" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View Project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-thumb"><img src="images/books-scraping.svg" alt="Books web scraping: book pages from the website converted into a structured CSV table" loading="lazy" /></div>
+          <div class="project-number">02</div>
+          <p class="project-status">WEB SCRAPING</p>
+          <h3>Books Web Scraping</h3>
+          <p>Extracted and structured catalog datasets for 1,000+ books across 50 web pages using custom Python scripts, producing 100% complete CSV datasets with zero missing values.</p>
+          <div class="tags"><span>Python</span><span>Requests</span><span>BeautifulSoup</span><span>Pandas</span></div>
+          <div class="project-links">
+            <a class="btn secondary" href="https://github.com/mwtnwaqtam-commits/books-web-scraping" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View Project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="journey" class="section muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04 / JOURNEY</p>
+          <h2>Professional Development.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>July 2026 - Present · Trainee</span>
+            <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+            <p>Data Science Trainee · Developed 3 machine learning capstone projects, improving model performance by 15% through feature engineering and hyperparameter tuning.</p>
+          </div>
+          <div class="timeline-item">
+            <span>45-Hour Training Program · Trainee</span>
+            <h3>InnovEgypt Program (ITIDA | TIEC)</h3>
+            <p>Completed a 45-hour training course and developed a final project for a potential startup, building hands-on experience in innovation, entrepreneurship, and teamwork.</p>
+          </div>
+          <div class="timeline-item">
+            <span>July 2025 · Online Course</span>
+            <h3>Communication Skills Course (STJEGYPT)</h3>
+            <p>Completed an online course focused on clear expression, active listening, and effective interaction in teamwork and professional settings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="certifications" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">05 / CERTIFICATIONS</p>
+        <h2>Learning beyond the technical skills.</h2>
+      </div>
+      <div class="certificate-card">
+        <a class="certificate-image-link" href="communication-skills-certificate.png" target="_blank" rel="noopener noreferrer" aria-label="View certificate in full size">
+          <img src="communication-skills-certificate.png" alt="Certificate of Achievement for completing the Communication Skills course, issued by STJEGYPT" class="certificate-image" />
+        </a>
+        <div class="certificate-details">
+          <p class="project-status">CERTIFICATE OF ACHIEVEMENT</p>
+          <h3>Communication Skills Course</h3>
+          <p><strong>Issuing organization:</strong> STJEGYPT</p>
+          <p><strong>Issued:</strong> July 16, 2025</p>
+          <p>This online course focused on communication skills, helping strengthen clear expression, active listening, and effective interaction in teamwork and professional settings.</p>
+          <a class="btn secondary" href="communication-skills-certificate.png" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <a class="certificate-image-link" href="innovegypt-certificate.png" target="_blank" rel="noopener noreferrer" aria-label="View certificate in full size">
+          <img src="innovegypt-certificate.png" alt="Certificate of Acknowledgement for completing a 45-hour training course in the InnovEgypt program, issued by ITIDA and TIEC" class="certificate-image" />
+        </a>
+        <div class="certificate-details">
+          <p class="project-status">CERTIFICATE OF ACKNOWLEDGEMENT</p>
+          <h3>InnovEgypt Training Program</h3>
+          <p><strong>Issuing organization:</strong> ITIDA | TIEC</p>
+          <p><strong>Certificate ID:</strong> C0527S25T1722</p>
+          <p>Successfully completed a 45-hour training course and developed a final project for a potential startup, strengthening innovation, entrepreneurship, and teamwork skills.</p>
+          <a class="btn secondary" href="innovegypt-certificate.png" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow">06 / GET IN TOUCH</p>
+          <h2>Let’s build something great together.</h2>
+          <p>I’m open to learning opportunities, challenging projects, teamwork, and professional experiences.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:mwtnwaqtam@gmail.com"><i class="fa-solid fa-envelope"></i> mwtnwaqtam@gmail.com</a>
+          <a href="https://github.com/mwtnwaqtam-commits" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+          <a href="https://linkedin.com/in/mohamed-elwakel-9a4828347" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+          <a href="tel:+201005539158"><i class="fa-solid fa-phone"></i> +20 100 553 9158</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Mohamed Khaled Abdelgawad</span>
+      <span>Built with curiosity & consistency.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="animations.js" defer></script>
+</body>
+</html>
